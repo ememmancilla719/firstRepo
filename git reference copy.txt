@@ -1,0 +1,24 @@
+git init
+git add <file>/. (certain file)/(all modified)
+git status
+git commit -m "your message"
+git remote (add/set-url) origin https://github.com/ememmancilla719/temp.git
+git push //- u origin master(once only
+git pull //if someone else updated the repo
+
+git log// history of commits
+
+if cloning// use git bash
+cd <directory to save>
+git clone (link to clone)=>https://github.com/ememmancilla719/firstRepo.git <folder name>
+
+
+.gitignore //include files to exclude them from being pushed
+
+git checkout -b <branch name> //create branch
+git checkout master/<branch name> // return/go to branch
+git push --set-upstream origin firstBranch => <name of branch>//do once only if pushing into a new branch
+
+Note* 
+Master = Production /stable build
+Branches = Development /experiment /for testing ang debugging before merging
